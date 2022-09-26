@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+header{
+    background-color:pink;
+    width: 100%;
+    height: 15vh;
+    background-image: url(./assets/cinta.png);
+    background-repeat: no-repeat;
+    background-size: 60%  100%;
+    background-position: center;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+header div{
+    display:flex;
+}
+header img{
+    width :10rem;
+    height: 6rem;
+}
+nav{
+    
+    background-color:aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+    padding: 0.3rem;
+
+
+}
+nav a{
+    border: none;
+    border-radius:8px;
+    color:black;
+    text-decoration: none;
+    padding: 8px;
+    background-color:pink;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight:bold;
+
+}
+.active{
+    background-color:whitesmoke;
+}
+main{
+    background-color:burlywood;
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+main h2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1rem;
+}
+main div{
+    padding: 0 0.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10rem 0 10rem;
+    margin-bottom: 5.5rem;
+    gap: 1.5rem;
+}
+section{
+    height: 15rem;
+    width: 7rem;
+    border: 0.1px solid pink;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 0.7rem;
+    border-radius: 8px;
+    
+}
+    
+    
+
+section img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 8px 8px 0 0;
+
+}
+section h6{
+    display: flex;
+    align-self: flex-start;
+    font-weight:bolder;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    
+}
+section p{
+}
+section h6,p{
+    padding: 0.3rem;
+}
+section button{
+    padding: 8px 1.3rem;
+
+    border-radius: 0.7rem;
+    cursor: pointer;
+}
+footer{
+    height:10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
